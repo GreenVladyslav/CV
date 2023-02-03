@@ -1,0 +1,180 @@
+/* :root {
+    --bgColorDark: #191919;
+    --bgColorWhite:  #ffffff;
+    --textColorDark: #37352f
+    --textColorWhite: #ffffff;
+} */
+
+body {
+    max-width: 1900;
+    position: relative;
+    margin: 0 auto;
+    transition:  all 1s ease;
+}
+
+.dark-mode {
+    background-color:#191919;
+    color:#ffffff;
+    transition:  all 1s ease;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('img/bg.png') center center/cover no-repeat;
+    min-height: 30vh;
+    margin-top: 6vh;
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: inherit;
+    height: 6vh;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+.wrapper-title {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.wrapper-mode {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.title-img {
+    width: 18px;
+    height: 18px;
+    margin: 0 8px 0 0;
+}
+
+.toggleMode {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.btn {
+    display: block;
+    width: 22px;
+    height: 16px;
+    border-radius: 25px;
+}
+
+.me {
+    width: 150px;
+    height: 150px;
+    margin-top: -225px;
+}
+
+.main {
+    margin-top: 140px;
+}
+
+.name {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.major {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin: 20px 0 25px 0;
+}
+
+.data-to {
+    list-style-type: disc;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    opacity: 7;
+    cursor: pointer;
+    color: #5a513666;
+}
+
+a.hover {
+    color: #9a6b6b;
+}
+
+.summary {
+    margin-top: 30px;
+}
+
+.tech-skills {
+    margin-top: 30px;
+}
+
+.experince {
+    margin-top: 30px;
+}
+
+.wrapper {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 156px 430px;
+}
+
+.date {
+    padding-left: 0;
+}
+
+.exp-date {
+    font-weight: 500;
+}
+
+.descr {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+.education {
+    margin: 30px 0 20px 0;
+}
+
+.divider {
+    border: 1px solid rgba(55, 53, 47, 0.16);
+    margin: 19px 0 19px 0;
+}
+
+.wrapper-emojii {
+    display: flex;
+}
+
+.emojii {
+    width: 29px;
+    height: 29px;
+    margin-right: 8px;
+}
